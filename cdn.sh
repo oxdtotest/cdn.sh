@@ -20,7 +20,7 @@ NODE_FILE="node.txt"
 
 # 1. 下载 sing-box (AMD64 架构)
 if [[ ! -x "$SB_BIN" ]]; then
-    URL="https://github.com/xxxxxxx"
+    URL="https://github.com/oxdtotest/cdn.sh/releases/download/v1.12.17/sing-box-1.12.17-linux-amd64"
     curl -L -f -o "$SB_BIN" "$URL"
     chmod +x "$SB_BIN"
 fi
